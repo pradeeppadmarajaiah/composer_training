@@ -1,0 +1,20 @@
+
+/**
+ * New model file
+ */
+
+namespace org.acme.model
+
+participant User identified by userId{
+o String userId
+o Role role
+}
+
+participant Member identified by memberId{
+o String memberId
+}
+
+enum Role{
+o ADMIN
+o NON_ADMIN
+}
