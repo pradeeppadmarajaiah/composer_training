@@ -1,0 +1,22 @@
+{
+  "name": "asset-creation-by-transaction",
+  "version": "0.0.1",
+  "description": "AssetCreationByTransaction",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "org.acme",
+  "email": "pradeep_p_13@hotmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}

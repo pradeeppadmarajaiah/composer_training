@@ -1,0 +1,20 @@
+/**
+ * New model file
+ */
+
+namespace org.acme.model
+
+asset Order identified by orderId{
+  o String orderId
+  --> LineItem[] lineItem optional
+}
+
+asset LineItem identified by lineItemId{
+  o String lineItemId
+  o String lineItemDesc
+  --> Order order
+}
+
+transaction createLineItem{
+ o LineItem lineItem
+}
